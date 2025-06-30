@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: gray;
+}
+
+
+.main-content {
+  flex: 1;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+ .profile-img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 500px;
+  margin-bottom: 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+
+.social-icons {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons:hover {
+color: gray;
+}
